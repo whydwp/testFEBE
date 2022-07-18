@@ -31,4 +31,7 @@ while (number < 50) {
   console.log(myString.split(splitByNumber));
 }
 
-
+// Saya menggunakan operator ternary untuk mengembalikan string kosong atau
+// 'Frontend' / 'Backend', menggabungkan hasil dari operator ini, kemudian melakukan
+// OR(jika angkanya tidak habis dibagi 3 atau 5, hasil penggabungannya ''adalah SALAH dalam javascript).
+// Jika kedua kasus benar, hasil nya adalah frontend backend
