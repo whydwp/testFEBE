@@ -27,7 +27,7 @@ while (number < 50) {
     },
   };
 
-  const myString = message || number;
+  const myString = message;
   console.log(myString.split(splitByNumber));
 }
 
